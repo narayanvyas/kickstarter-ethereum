@@ -7,7 +7,8 @@
     "test": "mocha",
     "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "heroku-postbuild": "npm run build",
+    "start": "next start -p $PORT"
   },
   "author": "",
   "license": "ISC",
