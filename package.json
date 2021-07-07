@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "0.12.0",
+    "npm": "2.5.0"
+  },
   "dependencies": {
     "fs-extra": "^10.0.0",
     "ganache-cli": "^6.12.2",
